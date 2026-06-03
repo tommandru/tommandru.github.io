@@ -13,4 +13,3 @@ wheels/
 **/*.quarto_ipynb
 
 # Quarto Renders
-/docs
