@@ -2,3 +2,6 @@
 title: "Learnings"
 ---
 
+Fixed Income:
+Documenting learning from Fixed Income Book
+-
