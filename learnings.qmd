@@ -4,6 +4,5 @@ title: "Learnings"
 
 ### Bond Markers, Analysis, and Strategies - *Frank J. Fabozzi and Francesco A. Fabozzi*:
 
--[Chapter 1 - Introduction](./fixed_income/Introduction.qmd)
-
--[Chapter 2 - Pricing of Bonds](./fixed_income/PricingofBonds.qmd)
+- [Chapter 1 - Introduction](./fixed_income/Introduction.qmd)
+- [Chapter 2 - Pricing of Bonds](./fixed_income/PricingofBonds.qmd)
