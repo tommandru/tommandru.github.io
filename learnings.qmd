@@ -4,5 +4,6 @@ title: "Learnings"
 
 Fixed Income:
 
-Documenting learning from Fixed Income Book
+Documenting learning from Fixed Income Book:
+
 -[chapter1](./fixed_income/Intro.qmd)
