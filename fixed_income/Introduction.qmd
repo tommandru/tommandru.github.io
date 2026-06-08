@@ -53,7 +53,8 @@ Note that, the higher the term to maturity, the greater the price volatility bon
             The reference rate can also be financial benchmark like return of _S&P 500_ or non financial benchmark like price of commodity or rate of inflation. The bonds with reference rate as rate of inflation are called *__Linkers__* and linkers issued by U.S. Treasury are called as *__Treasury Inflation Protected Securities (TIPS)__*.\
 
             Floating rate issues coupon rate raise as reference rates raise and fall as reference rates falls, there are a certain issues that have coupon rates morving in opposite direction. These issues are called *__Reverse Floaters/ Inverse Floaters/ Inverse Floating Rate Notes__*
-* _Amortization Feature_ : The principal repayment of bond can occur either at:
+* _Amortization Feature_ : 
+The principal repayment of bond can occur either at:
     - Full principal paid at maturity
     - Principal paid over the term of bond
 The bonds with amortization feature are called *__amortizing securities__* and have repayment schedule called *__amortization schedule__*. Automobile loans and Mortgage laons are examples of amortizating secuties. Since amortizing securities have principal repayment feature at scheduled basis through out the term of the bond, *`Weighted Average Life or Average Life`* is measured as opposed to Term of Maturity.
