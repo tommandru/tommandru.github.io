@@ -29,3 +29,11 @@ flowchart LR
   F -->|No| G[Subprime Mortgage Backed Securities]
   F -->|Yes| H[Prime Mortgage Backed Securities]
 ```
+### Bond Features
+
+* _Type of Issuer_ : There are three issuers of bonds. Governmanet and it's agencies, Muncipal Governments and Corporations (Domestic and Foreign)
+* _Term to Maturity_ : Also known as *`Maturity`* or *`Term`*. It is the number of years/months over which issuer has promised to meet the conditions of obligation. At the time of maturity date, the debt will cease it exist and issuer/borrower will pay the outstanding principal and redeem the bond. There are some provisions in indenture (bond prospectus) where issuer may alter the term to maturity. Based on term to maturity, bonds are classified into following categories:
+    - Short Term : 1 to 5 years
+    - Intermediate Term: 5 to 12 years
+    - Long Term : > 12 years
+Note that, the higher the term to maturity, the greater the price volatility bond exhbits
