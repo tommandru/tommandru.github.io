@@ -48,5 +48,8 @@ Note that, the higher the term to maturity, the greater the price volatility bon
             $$
            The reference rate could be __LIBOR (London Interbank Offered Rate)__ or __SOFR (Secured Overnight Financing Rate)__ ; LIBOR is currently replaced by SOFR due to [scandal](https://www.hbs.edu/faculty/Pages/item.aspx?num=43888). For example, if reference rate is SOFR and quoted margin is 350 basis points then coupon reset formulate is:
             $$
-            SOFR + 350 basis points
+            SOFR + 350\:basis\:points
             $$
+            The reference rate can also be financial benchmark like return of _S&P 500_ or non financial benchmark like price of commodity or rate of inflation. The bonds with reference rate as rate of inflation are called *__Linkers__* and linkers issued by U.S. Treasury are called as *__Treasury Inflation Protected Securities (TIPS)__*.\
+
+            Floating rate issues coupon rate raise as reference rates raise and fall as reference rates falls, there are a certain issues that have coupon rates morving in opposite direction. These issues are called *_Reverse Floaters/Inverse Floaters/Inverse Floating Rate Notes_*
