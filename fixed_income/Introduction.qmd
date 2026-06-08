@@ -4,6 +4,6 @@ title: "Intro to Bonds"
 
 ### Bond :
 A bond is a debt issued by issuer/debtor/borrower which is repaid to investor/lender the original amount borrowed + interest over specified period of time.\
-A typical bond has a *fixed date when the amount borrowed is due (principal issued is paid back) aka maturity date*  and *contractual amount of interest which is paid every six months*
+A typical bond has a *`fixed date when the amount borrowed is due (principal issued is paid back) aka maturity date`*  and *`contractual amount of interest which is paid every six months`*
 
 ### Sectors of U.S. Bond Market
