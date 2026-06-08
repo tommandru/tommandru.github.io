@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -120,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi" id="toc-bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi" class="nav-link active" data-scroll-target="#bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi">Bond Markets, Analysis, and Strategies - <em>Frank J. Fabozzi and Francesco A. Fabozzi</em> :</a></li>
+  <li><a href="#bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi-10th-edition" id="toc-bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi-10th-edition" class="nav-link active" data-scroll-target="#bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi-10th-edition">Bond Markets, Analysis, and Strategies - <em>Frank J. Fabozzi and Francesco A. Fabozzi</em> <span class="math inline">\(10^th\)</span> Edition:</a></li>
   </ul>
 </nav>
     </div>
@@ -146,8 +175,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi" class="level3">
-<h3 class="anchored" data-anchor-id="bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi">Bond Markets, Analysis, and Strategies - <em>Frank J. Fabozzi and Francesco A. Fabozzi</em> :</h3>
+<section id="bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi-10th-edition" class="level3">
+<h3 class="anchored" data-anchor-id="bond-markets-analysis-and-strategies---frank-j.-fabozzi-and-francesco-a.-fabozzi-10th-edition">Bond Markets, Analysis, and Strategies - <em>Frank J. Fabozzi and Francesco A. Fabozzi</em> <span class="math inline">\(10^th\)</span> Edition:</h3>
 <ul>
 <li><a href="./fixed_income/Introduction.html">Chapter 1 - Introduction</a></li>
 <li><a href="./fixed_income/PricingofBonds.html">Chapter 2 - Pricing of Bonds</a></li>
