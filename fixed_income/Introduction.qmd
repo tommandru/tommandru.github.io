@@ -37,3 +37,6 @@ flowchart LR
     - Intermediate Term: 5 to 12 years
     - Long Term : > 12 years
 Note that, the higher the term to maturity, the greater the price volatility bond exhbits
+* _Principal and Coupon Rate_ : 
+    - *Principal Value* :  The amount that borrower promised to pay to bond holder at the time of maturity. It also known as *`maturity value, par value, face value, redemption value`*
+    - *Coupon Rate* : 
