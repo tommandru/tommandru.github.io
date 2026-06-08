@@ -43,6 +43,10 @@ Note that, the higher the term to maturity, the greater the price volatility bon
     - *Coupon Rate* :  *`Coupon Rate or Nominal Rate`* is rate borrower/issuer promises to pay every year till the maturity date. The dollar amount the investor of bond can expect to receive each year is called *`Coupon`* . For example, if a bond with face value of $\$1000$ agrees to pay $9 \%$  coupon rate for term of maturity of 5 years, then the owner of bond can expect to get paid $\$90$ every year for 5 years. In U.S. and Japan bonds pay coupons semi anually.
         - Not all bonds pay coupons periodically, the type of bonds that donot pay coupon is called **_Zero Coupon Bond_**. The borrower/issuer issues the bond at discount and makes the principal and interest payment at maturity.
         - *Floating Rate Bonds* : The coupon payment reset periodically based on a formula called *`coupon reset formula`* as shown below:
-                                                        $$
-                                                        reference\:rate + quoted\:margin
-                                                        $$
+            $$
+            reference\:rate + quoted\:margin
+            $$
+           The reference rate could be __LIBOR (London Interbank Offered Rate)__ or __SOFR (Secured Overnight Financing Rate)__ ; LIBOR is currently replaced by SOFR due to [scandal](https://www.hbs.edu/faculty/Pages/item.aspx?num=43888). For example, if reference rate is SOFR and quoted margin is 350 basis points then coupon reset formulate is:
+            $$
+            SOFR + 350 basis points
+            $$
