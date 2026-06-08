@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -220,7 +249,7 @@ Figure&nbsp;1: Mortgage Backed Securities Classification
 <li><em>Principal and Coupon Rate</em> :
 <ul>
 <li><em>Principal Value</em> : The amount that borrower promised to pay to bond holder at the time of maturity. It also known as <em><code>maturity value, par value, face value, redemption value</code></em></li>
-<li><em>Coupon Rate</em> :</li>
+<li><em>Coupon Rate</em> : <em><code>Coupon Rate or Nominal Rate</code></em> is rate borrower/issuer promises to pay every year till the maturity date. The dollar amount the investor of bond can expect to receive each year is called <em><code>Coupon</code></em> . For example, if a bond with face value of <span class="math inline">\(1000 \$\)</span> agrees to pay <span class="math inline">\(9%\)</span> coupon rate for term of maturity of 5 years, then the owner of bond can expect to get paid <span class="math inline">\(90\$\)</span> every year for 5 years.</li>
 </ul></li>
 </ul>
 
