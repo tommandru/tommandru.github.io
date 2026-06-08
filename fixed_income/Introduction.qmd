@@ -17,5 +17,14 @@ U.S. Fixed income market is divided into six sectors:
     + Tax Backed Bonds
     + Revenue Bonds
 * _Corporates_ : These include securities issued by U.S. Corporations and securities issued in U.S. by non U.S. Corporations. Corporations can issue *bonds, medium term notes and commercial paper*. Corporations can also borrow from commercial banks and sometimes these commercial loans can be traded in the market. Based on credit rating of corporations the securities are further classified into investment-grade and non investment-grade
-* _Asset Backed Securities_ : 
-* _Mortgages_ : 
+* _Asset Backed Securities_ : Corporations can also raise debt; To issue securities, Corporations use pool of loans or receivables. Usually finance subsidiary of operating companies are issuers of Asset Backed Securities. Other kind of ABS include bonds issued by performing artists backed by their future receivables on music royalties - *Bowie Bonds*
+* _Mortgages_ : Mortgages are also part of bond market. The issuances in this sector are backed by loans issued to borrowers to buy single-four family homes or commercial properties (income producing properties such as apartment buildings, office buildings, industrial properties, hotels and healthcare centers). Loans are classifed based on if they conform to the underwriting standards of Federal Agencies or Government Sponsored Entities. The GSEs package residential loans and create *Residential Mortgage Backed Securities (RMBS)*. The RMBS issued by federal agency are reffered as *Agency Mortgage Backed Securities* and RMBS not issued by federal agencies are called *Non agency Mortgage Backed Securities*. *Non agency Mortgage Backed Securities* are divided into prime and non prime mortgage backed securities, the latter are mortgages of borrowers with impaired credit. The classification is shown in figure @fig-MBS
+```{mermaid}
+%%| label: fig-MBS
+%%| fig-cap: "Mortgage Backed Securities Classification"
+flowchart LR
+  A[Hard edge] --> C{Is Conforming Underwriting Standards of Federal Agency}
+  C -->|Yes| D[Agency MBS] 
+  C -->|No|E[Non Agency MBS] --> F{Is credit quality of borrower good?}
+  F -->|No| G[Subprime Mortgage Backed Securities]
+```

@@ -71,6 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -171,9 +174,30 @@ A typical bond has a <em><code>fixed date when the amount borrowed is due (princ
 <li>Revenue Bonds</li>
 </ul></li>
 <li><em>Corporates</em> : These include securities issued by U.S. Corporations and securities issued in U.S. by non U.S. Corporations. Corporations can issue <em>bonds, medium term notes and commercial paper</em>. Corporations can also borrow from commercial banks and sometimes these commercial loans can be traded in the market. Based on credit rating of corporations the securities are further classified into investment-grade and non investment-grade</li>
-<li><em>Asset Backed Securities</em> :</li>
-<li><em>Mortgages</em> :</li>
+<li><em>Asset Backed Securities</em> : Corporations can also raise debt; To issue securities, Corporations use pool of loans or receivables. Usually finance subsidiary of operating companies are issuers of Asset Backed Securities. Other kind of ABS include bonds issued by performing artists backed by their future receivables on music royalties - <em>Bowie Bonds</em></li>
+<li><em>Mortgages</em> : Mortgages are also part of bond market. The issuances in this sector are backed by loans issued to borrowers to buy single-four family homes or commercial properties (income producing properties such as apartment buildings, office buildings, industrial properties, hotels and healthcare centers). Loans are classifed based on if they conform to the underwriting standards of Federal Agencies or Government Sponsored Entities. The GSEs package residential loans and create <em>Residential Mortgage Backed Securities (RMBS)</em>. The RMBS issued by federal agency are reffered as <em>Agency Mortgage Backed Securities</em> and RMBS not issued by federal agencies are called <em>Non agency Mortgage Backed Securities</em>. <em>Non agency Mortgage Backed Securities</em> are divided into prime and non prime mortgage backed securities, the latter are mortgages of borrowers with impaired credit. The classification is shown in figure <a href="#fig-MBS" class="quarto-xref">Figure&nbsp;1</a></li>
 </ul>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-MBS" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-MBS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-MBS">flowchart LR
+  A[Hard edge] --&gt; C{Is Conforming Underwriting Standards of Federal Agency}
+  C --&gt;|Yes| D[Agency MBS] 
+  C --&gt;|No|E[Non Agency MBS] --&gt; F{Is credit quality of borrower good?}
+  F --&gt;|No| G[Subprime Mortgage Backed Securities]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-MBS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Mortgage Backed Securities Classification
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section>
