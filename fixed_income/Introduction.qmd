@@ -23,8 +23,8 @@ U.S. Fixed income market is divided into six sectors:
 %%| label: fig-MBS
 %%| fig-cap: "Mortgage Backed Securities Classification"
 flowchart LR
-  A[Hard edge] --> C{Is Conforming Underwriting Standards of Federal Agency}
+  A[Loan] --> C{Is Loan Conforming Underwriting Standards of Federal Agency}
   C -->|Yes| D[Agency MBS] 
-  C -->|No|E[Non Agency MBS] --> F{Is credit quality of borrower good?}
+  C -->|No|E[Non Agency MBS] --> F{Is Credit Quality of Borrower Good?}
   F -->|No| G[Subprime Mortgage Backed Securities]
 ```
