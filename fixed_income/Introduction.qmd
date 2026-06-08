@@ -9,12 +9,13 @@ A bond is a debt issued by issuer/debtor/borrower which is repaid to investor/le
 A typical bond has a *`fixed date when the amount borrowed is due (principal issued is paid back) aka maturity date`*  and *`contractual amount of interest which is paid every six months`*
 
 ### Sectors of U.S. Bond Market
-U.S. Fixed income market is divided into six sectors:\
+U.S. Fixed income market is divided into six sectors:
+
 * _U.S. Treasury_ : Includes securities issued by U.S. Government. These include Treasury Bills, Notes and Bonds. U.S. Govt securities set the tone for rest of the economy and world
 
 * _Agency_ : Securities issued by federally related institutes and government sponsored entities (GSE). These are not backed by collateral and also called as *_agency debenture securities_*
 
-* _Municipals_ : These bonds are issued by state and local governments. There are two types of bonds based on how the interest received by investors is taxed at federal income tax level. There are two types of bond structures:\
+* _Municipals_ : These bonds are issued by state and local governments. There are two types of bonds based on how the interest received by investors is taxed at federal income tax level. There are two types of bond structures:
 
     + Tax Backed Bonds
 
