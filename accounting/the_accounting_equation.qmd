@@ -1,0 +1,15 @@
+---
+title: "The Accounting Equation"
+format: html
+date: 07/13/2026
+date-modified: last-modified
+date-format: long
+---
+
+
+### Three major financial statements
+* What is the financial condition of the organzition?
+    + Balance Sheet
+* How well did the organization do?
+    + Income Statment
+    + Cash Flow Statement
