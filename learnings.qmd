@@ -9,3 +9,4 @@ title: "Learnings"
 
 
 ### Accouting Learning - *[Accounting for Non-Finance Professionals - Rice University - Coursera](https://www.coursera.org/learn/pre-mba-quant-skills-accounting/)* :
+- [The Accounting Equation](./accounting/the_accounting_equation.qmd)
