@@ -8,4 +8,4 @@ title: "Learnings"
 - [Chapter 2 - Pricing of Bonds](./fixed_income/PricingofBonds.qmd)
 
 
-### Accouting Learning - *Accounting for Non-Finance Professionals - Rice University - Coursera* :
+### Accouting Learning - *[Accounting for Non-Finance Professionals - Rice University - Coursera](https://www.coursera.org/learn/pre-mba-quant-skills-accounting/)* :
